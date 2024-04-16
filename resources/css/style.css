@@ -24,7 +24,7 @@ body {
 
 .section {
     min-width: 320px;
-    max-width: 90%;
+    max-width: 80%;
     padding: 1rem;
     margin: 1rem auto;
     border: solid 1px red;
@@ -52,11 +52,26 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 0rem;
+}
+
+.hero-text,
+.hero-imgframe {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .hero-text {
-    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
+
+.hero-imgframe {
+    min-width: 320px;
+}
+
 
 /* Feature Section */
 
@@ -78,7 +93,7 @@ body {
 }
 
 .gallery-frame {
-    padding: 0.25rem;
+    padding: 0.5rem;
 }
 
 /* Footer */
