@@ -9,3 +9,7 @@ Vanilla CSS (utilizing flexbox and media queries)
 - I am building this project to showcase my skills in writing accessible HTML and responsive CSS. 
 - I will attempt to not get too bogged down in the "look" of the site as design is not my current area of focus. 
 - I also plan to document the process as step-by-step as possible to demonstrate my understanding of version control and generally working with future use in mind.
+
+## Resources Used
+- Reset CSS adapted from "A (more) Modern CSS Reset" https://piccalil.li/blog/a-more-modern-css-reset/
+- Cat photos by Tucker Good, Milada Vigerova, Caleb Woods (all via Unsplash)

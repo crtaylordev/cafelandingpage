@@ -29,7 +29,6 @@ body {
     padding: 1rem;
     margin: 1rem auto;
     background-color: aliceblue;
-    border: solid 1px red;
 }
 
 .head-font {
@@ -41,11 +40,6 @@ body {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
-
-/* .body-font {
-    font-family: 'Sintony', sans-serif;
-    font-size: 14px;
-}* /
 
 /* Navigation (Header) */
 
@@ -73,15 +67,14 @@ body {
     padding: 0rem;
 }
 
-.hero-text,
-.hero-imgframe {
+.hero-text {
+    width: 50%;
     display: flex;
     flex-direction: column;
-    width: 50%;
 }
 
 .hero-text {
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
 }
@@ -91,9 +84,38 @@ body {
 }
 
 .hero-imgframe {
-    min-width: 320px;
+    width: 100%;
 }
 
+.hero-image {
+    width: 100%;
+    height: auto;
+}
+
+/* CTA Section */
+
+.cta-section {
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.cta-button {
+    width: 35%;
+    padding: 1rem;
+}
+
+.hours-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin: 1rem;
+}
+
+.hours-table td {
+    padding-right: 1rem;
+    padding-top: 1rem;
+    vertical-align: top;
+}
 
 /* Feature Section */
 
@@ -113,12 +135,31 @@ body {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .gallery-frame {
-    padding: 0.5rem;
-    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: rgb(148, 148, 148);
+    margin: 0.5rem;
 }
+
+.gallery-image {
+    width: auto;
+    height: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.gallery-caption {
+    height: 50%;
+    padding: 0.5rem;
+    text-align: center;
+}
+
 
 /* Footer */
