@@ -1,14 +1,15 @@
 /* Universal */
 body {
     min-height: 100%;
+    margin: 0;
     background-color: gray;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header,
 .section,
 .footer {
     display: flex;
-    background-color: aliceblue;
 }
 
 .header,
@@ -27,16 +28,32 @@ body {
     max-width: 80%;
     padding: 1rem;
     margin: 1rem auto;
+    background-color: aliceblue;
     border: solid 1px red;
 }
+
+.head-font {
+    font-family: 'Yeseva One', serif;
+    font-weight: 400;
+}
+
+.subhead-font {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* .body-font {
+    font-family: 'Sintony', sans-serif;
+    font-size: 14px;
+}* /
 
 /* Navigation (Header) */
 
 .nav {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .nav-link {
@@ -44,6 +61,7 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     color: white;
+    margin: 0 4rem;
 }
 
 /* Hero Section */
@@ -68,6 +86,10 @@ body {
     text-align: center;
 }
 
+.hero-text h1 {
+    font-size: 2.5rem;
+}
+
 .hero-imgframe {
     min-width: 320px;
 }
@@ -82,6 +104,8 @@ body {
 }
 
 .feature-heading {
+    font-size: 1.5rem;
+    text-align: center;
     margin-bottom: 0.5rem;
 }
 
@@ -94,6 +118,7 @@ body {
 
 .gallery-frame {
     padding: 0.5rem;
+    width: 25%;
 }
 
 /* Footer */
