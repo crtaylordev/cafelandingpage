@@ -13,6 +13,3 @@ Vanilla CSS (utilizing flexbox and media queries)
 ## Resources Used
 - Reset CSS adapted from "A (more) Modern CSS Reset" https://piccalil.li/blog/a-more-modern-css-reset/
 - Cat photos by Tucker Good, Milada Vigerova, Caleb Woods (all via Unsplash)
-
-## Known Issues
-Still needs media queries for sizing, landscape mode
