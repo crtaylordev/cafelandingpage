@@ -112,6 +112,10 @@ body {
     flex-wrap: wrap;
 }
 
+.mobile-hours {
+    display: none;
+}
+
 .hours-table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -123,6 +127,7 @@ body {
     padding-top: 1rem;
     vertical-align: top;
 }
+
 .cta-frame {
     width: 50%;
 }
@@ -132,7 +137,6 @@ body {
     padding: 1rem;
     font-size: 1.25rem;
     font-weight: 600;
-    border: solid 2px #161616;
 }
 
 .cta-button:active {
@@ -140,8 +144,6 @@ body {
 }
 
 .cta-button:hover {
-    background-color: #161616;
-    color: #e9efeb;
     cursor: pointer;
 }
 
@@ -193,4 +195,25 @@ body {
 .footer {
     align-items: top;
     padding-bottom: 1rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 500px) {
+    .nav {
+        flex-direction: column;
+    }
+    .hero-section {
+        padding: 3rem 2rem;
+    }
+    .hours-table {
+        display: none;
+    }
+    .mobile-hours {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem;
+    }
 }
