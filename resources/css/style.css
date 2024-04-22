@@ -194,6 +194,7 @@ body {
 
 .footer {
     align-items: top;
+    justify-content: space-evenly;
     padding-bottom: 1rem;
 }
 
