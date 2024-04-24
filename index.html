@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./resources/images/paw-favicon.png" sizes="16x16">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Yeseva+One&display=swap" rel="stylesheet">
@@ -12,13 +13,19 @@
     <title>The Whisker Lounge</title>
 </head>
 <body class="light-bgcolor">
-    <header class="header dark-bgcolor">
+    <header role="navigation" aria-label="Main" class="section header">
         <nav class="nav">
-            <a class="nav-link light-txtcolor" href="#">About</a>
-            <a class="nav-link light-txtcolor" href="#">Menu</a>
-            <a class="nav-link light-txtcolor" href="#">Location</a>
-            <a class="nav-link light-txtcolor" href="#">Reserve</a>
+            <ul class="nav-menu">
+                <li><a class="menu-link" href="#">About</a></li>
+                <li><a class="menu-link" href="#">Our Cats</a></li>
+                <li><a class="menu-link" href="#">Cafe Menu</a></li>
+                <li><a class="menu-link" href="#">Reservations</a></li>
+            </ul>
         </nav>
+        <button class="hamburger-button">
+            <i class="hamburger-icon material-icons">menu</i>
+            <i class="closeburger-icon material-icons">close</i>
+        </button>
     </header>
     <main>
         <section class="section hero-section">
@@ -94,9 +101,10 @@
             </div>
         </section>
     </main>
-    <footer class="footer dark-bgcolor light-txtcolor">
+    <footer class="section footer dark-bgcolor light-txtcolor">
         <p>© The Whisker Lounge, LLC</p>
         <p><a href="https://www.flaticon.com/free-icons/paw" title="paw icons" class="footer-link light-txtcolor">Paw icons created by Mihimihi - Flaticon</a></p>
     </footer>
+    <script src="./script-main.js"></script>
 </body>
 </html>
