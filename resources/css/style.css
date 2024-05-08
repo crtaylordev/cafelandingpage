@@ -108,7 +108,7 @@ nav .close {
 
 .nav-menu {
     margin-top: 1.65rem;
-    min-width: fit-content;
+    min-width: 24rem;
     height: fit-content;
     position: absolute;
     padding: 2rem;
@@ -279,9 +279,52 @@ nav .close {
 /* Footer */
 
 .footer {
+    font-size: 0.85rem;
     align-items: top;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
     padding-bottom: 1rem;
+}
+
+/* SUBPAGES */
+/** ABOUT **/
+#about-hero {
+    height: fit-content;
+    background-image: none;
+    background-color: hsl(0, 0%, 9%);
+    align-items: center;
+}
+
+#about-hero h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.about-story {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.story-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+    max-width: 30rem;
+}
+
+.story-deco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.story-image {
+    margin: 0.25rem;
+    width: 100%;
 }
 
 /* Media Queries */
@@ -308,5 +351,4 @@ nav .close {
         text-align: center;
         margin: 1rem;
     }
-
 }
