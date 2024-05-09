@@ -288,31 +288,36 @@ nav .close {
 }
 
 /* SUBPAGES */
-/** ABOUT **/
-#about-hero {
+
+.subpage-hero {
     height: fit-content;
     background-image: none;
-    background-color: hsl(0, 0%, 9%);
     align-items: center;
 }
 
-#about-hero h1 {
+.subpage-hero h1 {
     font-size: 4rem;
     text-align: center;
 }
 
+/** ABOUT **/
+
 .about-story {
     justify-content: space-around;
     flex-wrap: wrap;
-    
+    padding: 1rem;
 }
 
 .story-text {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     padding: 1rem;
-    max-width: 30rem;
+    max-width: 45rem;
+}
+
+.story-text p {
+    margin-top: 1rem;
 }
 
 .story-deco {
@@ -323,8 +328,17 @@ nav .close {
 }
 
 .story-image {
-    margin: 0.25rem;
-    width: 100%;
+    margin: 0.5rem 0;
+    width: 12rem;
+}
+
+/** RESERVATIONS **/
+
+.reserve-main {
+    min-height: 12rem;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
 }
 
 /* Media Queries */

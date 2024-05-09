@@ -4,6 +4,7 @@ A simple and clean cafe landing page for portfolio use.
 ## Tools
 HTML5
 Vanilla CSS (utilizing flexbox and media queries)
+JavaScript (for accessible "hamburger" navigation menu)
 
 ## Goals
 - I am building this project to showcase my skills in writing accessible HTML and responsive CSS. 
@@ -12,4 +13,4 @@ Vanilla CSS (utilizing flexbox and media queries)
 
 ## Resources Used
 - Reset CSS adapted from "A (more) Modern CSS Reset" https://piccalil.li/blog/a-more-modern-css-reset/
-- Cat photos by Tucker Good, Milada Vigerova, Caleb Woods (all via Unsplash)
+- Cat photos from https://unsplash.com/ Photagraphers: Tucker Good, Milada Vigerova, Caleb Woods
