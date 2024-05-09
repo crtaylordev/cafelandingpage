@@ -332,6 +332,13 @@ nav .close {
     width: 12rem;
 }
 
+/** CAFE MENU **/
+
+.cafe-frame {
+    padding: 1em;
+    margin: 1em;
+}
+
 /** RESERVATIONS **/
 
 .reserve-main {

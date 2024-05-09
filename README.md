@@ -13,4 +13,4 @@ JavaScript (for accessible "hamburger" navigation menu)
 
 ## Resources Used
 - Reset CSS adapted from "A (more) Modern CSS Reset" https://piccalil.li/blog/a-more-modern-css-reset/
-- Cat photos from https://unsplash.com/ Photagraphers: Tucker Good, Milada Vigerova, Caleb Woods
+- Cat photos from https://unsplash.com/ Photagraphers: Tucker Good, Milada Vigerova, Caleb Woods, Erin Agius, Kim Davies, Kari Shea, Piotr Musiol
