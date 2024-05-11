@@ -341,8 +341,14 @@ nav .close {
 /** CAFE MENU **/
 
 .cafe-frame {
+    align-items: center;
     padding: 1em;
     margin: 1em;
+}
+
+.cafe-image {
+    width: 100%;
+    height: auto;
 }
 
 /** RESERVATIONS **/
