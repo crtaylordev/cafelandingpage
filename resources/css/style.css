@@ -32,7 +32,7 @@ body {
 }
 
 .light-txtcolor {
-    color: hsl(140, 16%, 93%);
+    color: #FCF5ED;
 }
 
 .dark-bgcolor {
@@ -40,11 +40,15 @@ body {
 }
 
 .light-bgcolor {
-    background-color: hsl(140, 16%, 93%);
+    background-color: #FCF5ED;
 }
 
 .accent-bgcolor {
-    background-color: hsl(164, 27%, 43%);
+    background-color: #CE5A67;
+}
+
+.neutral-bgcolor {
+    background-color: #F4BF96;
 }
 
 /* Navigation (Header) */
@@ -153,7 +157,7 @@ nav .close {
 }
 
 .nav-link:active {
-    color:#518C7C;
+    color:#CE5A67;
 }
 
 .nav-link:hover {
