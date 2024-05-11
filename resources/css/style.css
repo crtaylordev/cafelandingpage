@@ -238,6 +238,8 @@ nav .close {
 }
 
 .feature-heading {
+    width: 100%;
+    padding: 1rem;
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 0.5rem;
@@ -371,5 +373,8 @@ nav .close {
         justify-content: center;
         text-align: center;
         margin: 1rem;
+    }
+    .subpage-hero h1 {
+        font-size: 2rem;
     }
 }
