@@ -348,13 +348,25 @@ nav .close {
 
 .cafe-frame {
     align-items: center;
-    padding: 1em;
-    margin: 1em;
+    max-width: fit-content;
+    height: 20rem;
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .cafe-image {
     width: 100%;
     height: auto;
+}
+
+.cafe-caption h4 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.cafe-price {
+    font-size: 1.25rem;
+    margin-top: 0.25rem;
 }
 
 /** RESERVATIONS **/
