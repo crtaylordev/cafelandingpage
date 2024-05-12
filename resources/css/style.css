@@ -261,7 +261,7 @@ nav .close {
     align-items: center;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    margin: 0.5rem 2rem;
+    margin: 0.5rem 1rem;
 }
 
 .gallery-image {
@@ -279,6 +279,13 @@ nav .close {
 
 .gallery-caption .head-font {
     font-size: 1.5rem;
+}
+
+/* Informational Section */
+
+.another-section {
+    padding: 1.5rem;
+    font-style: italic;
 }
 
 /* Footer */
@@ -383,7 +390,7 @@ nav .close {
         text-align: center;
         margin: 1rem;
     }
-    .subpage-hero h1 {
-        font-size: 2rem;
+    #reserve-hero h1 {
+        font-size: 3rem;
     }
 }
