@@ -18,7 +18,7 @@ body {
 }
 
 .head-font {
-    font-family: 'Yeseva One', serif;
+    font-family: 'Bree Serif', serif;
     font-weight: 400;
 }
 
@@ -183,11 +183,10 @@ nav .close {
 }
 
 .hero-text h1 {
-    margin-bottom: 0.5rem;
-}
-
-.hero-text h1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
     font-size: 2.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /* CTA Section */
